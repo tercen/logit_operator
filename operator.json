@@ -1,6 +1,6 @@
 {
-  "name": "Logit transform",
-  "description": "Logit transform of proportion data",
+  "name": "Logit",
+  "description": "Transforms proportion data from logistic regression to a binary value (1 or 0).",
   "tags": ["data wrangling", "data transformation", "transform"],
   "authors": ["tercen"],
   "urls": ["https://github.com/rdewijn/logit_operator"],
