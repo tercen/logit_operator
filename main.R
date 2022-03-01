@@ -9,7 +9,9 @@ logit = function(x, pct = FALSE){
   result = log(x/(1-x))
 }
 
-(ctx = tercenCtx())  %>% 
+ctx <- tercenCtx()
+
+ctx  %>% 
   select(.y, .ci, .ri) %>% 
   group_by(.ci, .ri) %>%
   summarise( my = mean(.y)) %>%
@@ -17,4 +19,5 @@ logit = function(x, pct = FALSE){
   select(.ri, .ci, logit_transformed) %>%
   ctx$addNamespace() %>%
   ctx$save()
+
  
