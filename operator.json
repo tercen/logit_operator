@@ -1,6 +1,6 @@
 {
   "name": "Logit",
-  "description": "Transforms proportion data from logistic regression to a binary value (1 or 0).",
+  "description": "Transforms a binary outcome to a continuous variable.",
   "tags": [
     "preprocessing",
     "transformation"
